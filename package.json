@@ -1,0 +1,28 @@
+{
+  "name": "gommastore-frontend",
+  "version": "1.0.0",
+  "description": "REST-tutorial =============",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js && webpack-dev-server --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
+    "style-loader": "^0.19.1",
+    "svg-inline-loader": "^0.8.0",
+    "url-loader": "^0.6.2",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
